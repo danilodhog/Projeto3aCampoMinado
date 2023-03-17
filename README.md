@@ -26,6 +26,7 @@ Regras do jogo:
 
 
 Mapa:
+
 ![Imagem do mapa](https://user-images.githubusercontent.com/101647391/225992854-f4097527-a4ac-4c31-8c6d-d89d3dc1b555.jpeg)
 
 Legenda do mapa: 
