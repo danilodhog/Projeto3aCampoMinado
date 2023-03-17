@@ -25,6 +25,9 @@ Regras do jogo:
 . O jogo possui 100 quadrados, sendo que, entre eles, possuem 15 minas.
 
 
+Mapa:
+![Imagem do mapa](https://user-images.githubusercontent.com/101647391/225992854-f4097527-a4ac-4c31-8c6d-d89d3dc1b555.jpeg)
+
 Legenda do mapa: 
 
 O número 0 indica que no quadrado selecionado não contém nenhuma mina ou informação;
