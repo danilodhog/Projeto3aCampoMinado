@@ -22,5 +22,11 @@ Regras do jogo:
 
 . Caso o quadrado que você escolha, possui uma mina, você perde o jogo e é reiniciado;
 
-. O jogo possui 100 quadrados, sendo que, entre eles, possuem 15 minas;
+. O jogo possui 100 quadrados, sendo que, entre eles, possuem 15 minas.
 
+
+Legenda do mapa: 
+
+O número 0 indica que no quadrado selecionado não contém nenhuma mina ou informação;
+Os números 1, 2 e 3 indicam quantas minas estão próximas do quadrado selecionada;
+O asterisco simboliza as minas localizadas no mapa.
