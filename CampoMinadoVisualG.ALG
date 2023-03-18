@@ -1,17 +1,17 @@
 Algoritmo "Campo Minado"
-// Disciplina   : [Lógica de Programação]
+// Disciplina   : [LÃ³gica de ProgramaÃ§Ã£o]
 // Professor   : Aline Firmino Brito
-// Descrição   : Algoritmo de um jogo tip campo minado
-// Autor(a)    : Danilo Garcia/Victor Tupinambá
+// DescriÃ§Ã£o   : Algoritmo de um jogo tip campo minado
+// Autor(a)    : Danilo Garcia/Victor TupinambÃ¡
 // Data atual  : 17/03/2023
 Var
-// Seção de Declarações das variáveis 
+// SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis 
 matriz: vetor[1..10,1..10] de inteiro
 linha: inteiro
 coluna: inteiro
 totalpontos: inteiro
 Inicio
-// Seção de Comandos, procedimento, funções, operadores, etc... 
+// SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc... 
 matriz [1,1] := 0
 matriz [1,2] := 0
 matriz [1,3] := 2
@@ -113,66 +113,66 @@ matriz [10,8] := 1
 matriz [10,9] := 1
 matriz [10,10] := 0
 
-enquanto (totalpontos<=50) faca
+enquanto (totalpontos<=85) faca
 
-escreva("Digite o número da linha selecionada: ")
+escreva("Digite o nÃºmero da linha selecionada: ")
 leia(linha)
 
-escreva("Digite o número da coluna selecionada: ")
+escreva("Digite o nÃºmero da coluna selecionada: ")
 leia(coluna)
 
 se(matriz[linha,coluna] = 9) entao
 totalpontos := 30
-escreva("Você acertou uma mina, game over")
+escreva("VocÃª acertou uma mina, game over")
 fimse
 
 se (matriz[linha,coluna] = 0) entao
 totalpontos := totalpontos + 1
-escreva("Você acertou um espaço vazio, sem minas adjacentes")
+escreva("VocÃª acertou um espaÃ§o vazio, sem minas adjacentes")
 fimse
 
 se (matriz[linha,coluna] = 1) entao
 totalpontos := totalpontos + 1
-escreva("Você acertou um espaço vazio, 1 mina adjacente")
+escreva("VocÃª acertou um espaÃ§o vazio, 1 mina adjacente")
 fimse
 
 se (matriz[linha,coluna] = 2) entao
 totalpontos := totalpontos + 1
-escreva("Você acertou um espaço vazio, 2 minas adjacentes")
+escreva("VocÃª acertou um espaÃ§o vazio, 2 minas adjacentes")
 fimse
 
 se (matriz[linha,coluna] = 3) entao
 totalpontos := totalpontos + 1
-escreva("Você acertou um espaço vazio, 3 minas adjacentes")
+escreva("VocÃª acertou um espaÃ§o vazio, 3 minas adjacentes")
 fimse
 
 se (matriz[linha,coluna] = 4) entao
 totalpontos := totalpontos + 1
-escreva("Você acertou um espaço vazio, 4 minas adjacentes")
+escreva("VocÃª acertou um espaÃ§o vazio, 4 minas adjacentes")
 fimse
 
 se (matriz[linha,coluna] = 5) entao
 totalpontos := totalpontos + 1
-escreva("Você acertou um espaço vazio, 5 minas adjacentes")
+escreva("VocÃª acertou um espaÃ§o vazio, 5 minas adjacentes")
 fimse
 
 se (matriz[linha,coluna] = 6) entao
 totalpontos := totalpontos + 1
-escreva("Você acertou um espaço vazio, 6 minas adjacentes")
+escreva("VocÃª acertou um espaÃ§o vazio, 6 minas adjacentes")
 fimse
 
 se (matriz[linha,coluna] = 7) entao
 totalpontos := totalpontos + 1
-escreva("Você acertou um espaço vazio, 7 minas adjacentes")
+escreva("VocÃª acertou um espaÃ§o vazio, 7 minas adjacentes")
 fimse
 
 se (matriz[linha,coluna] = 8) entao
 totalpontos := totalpontos + 1
-escreva("Você acertou um espaço vazio, 8 minas adjacentes")
+escreva("VocÃª acertou um espaÃ§o vazio, 8 minas adjacentes")
 fimse
 
-se(totalpontos = 50) entao
-escreva("Você achou todos os espaços vazios, Parabéns")
+se(totalpontos = 85) entao
+escreva("VocÃª achou todos os espaÃ§os vazios, ParabÃ©ns")
 fimse
 
 fimenquanto
