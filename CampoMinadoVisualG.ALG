@@ -1,7 +1,7 @@
 Algoritmo "Campo Minado"
 // Disciplina   : [Lógica de Programação]
 // Professor   : Aline Firmino Brito
-// Descrição   : Algoritmo de um jogo tip campo minado
+// Descrição   : Algoritmo de um jogo tipo campo minado
 // Autor(a)    : Danilo Garcia/Victor Tupinambá
 // Data atual  : 17/03/2023
 Var
