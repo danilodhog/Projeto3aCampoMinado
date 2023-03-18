@@ -7,6 +7,7 @@ Definição do jogo, começo do desenvolvimento da parte escrita (Regras, descri
 Finalização das regras, mapas e toda a parte manual do jogo
 
 17/03/2023
+Finalização do código em português estruturado, e atualização do ReadMe completa com o manual do jogo.
 
 Regras do jogo: 
 
