@@ -122,7 +122,7 @@ escreva("Digite o número da coluna selecionada: ")
 leia(coluna)
 
 se(matriz[linha,coluna] = 9) entao
-totalpontos := 30
+totalpontos := 85
 escreva("Você acertou uma mina, game over")
 fimse
 
