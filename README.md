@@ -1,13 +1,16 @@
 # Projeto3aCampoMinado
 
 09/03/2023
-Definição do jogo, começo do desenvolvimento da parte escrita (Regras, descrição e análise)
+Definição do jogo, começo do desenvolvimento da parte escrita (Regras, descrição e análise).
 
 16/03/2023
-Finalização das regras, mapas e toda a parte manual do jogo
+Finalização das regras, mapas e toda a parte manual do jogo.
 
 17/03/2023
 Finalização do código em português estruturado, e atualização do ReadMe completa com o manual do jogo.
+
+20/03/2023
+Finalização do código no c#, envio completo ao github e término do trabalho.
 
 Regras do jogo: 
 
