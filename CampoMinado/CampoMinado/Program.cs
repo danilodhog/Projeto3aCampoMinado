@@ -1,5 +1,7 @@
 ﻿// See https://aka.ms/new-console-template for more information
 Console.WriteLine("Bem vindo ao Campo Minado");
+Console.WriteLine();
+Console.WriteLine();
 
 int[,] matriz= new int[11, 11];
 int totalpontos = 0, linha, coluna;
